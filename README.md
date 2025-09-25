@@ -27,6 +27,18 @@ This project analyzes coffee shop sales data using **PostgreSQL** for storage an
 - Optimize SQL for minimal transformations, keeping business logic in Power BI
 - Provide insights into customer purchasing patterns and product performance
 
+## Data
+
+A small sample dataset is included for testing and demonstration:
+
+- `data/sample_data.csv` → Example dataset (100 rows) matching the schema of `staging.coffee_sales_raw`.
+
+To use it:
+1. Open pgAdmin → Import Data wizard.
+2. Target table: `staging.coffee_sales_raw`.
+3. File: `data/sample_data.csv` (CSV, UTF-8, header row).
+4. Run the provided SQL script to transform and load into `analytics.coffee_sales`.
+
 ## Files
 
 - `coffee_sales_db code.sql` → Database schema, ETL, indexes, views  
