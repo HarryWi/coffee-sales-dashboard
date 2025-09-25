@@ -19,7 +19,7 @@ This project analyzes coffee shop sales data using **PostgreSQL** for storage an
   - Flexible slicers (Year/Month, Coffee Type, Time of Day, Weekday)
 
 - **Documentation**
-  - [Dashboard preview (PDF)](Default%20view%20dashboard.pdf)
+  -  [Dashboard preview (PDF)](dashboard_main.pdf)
 
 ## Project Goals
 
