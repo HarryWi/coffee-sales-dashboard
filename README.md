@@ -65,7 +65,9 @@ Ranks coffee products by sales volume and revenue share, identifying best perfor
 - `Coffee Sales Analysis.pbix` → Power BI dashboard  
 - `Default view dashboard.pdf` → Dashboard preview (PDF version)  
 - `data/sample_data.csv` → Example dataset  
-- `screenshots/*.png` → Dashboard screenshots  
+- `screenshots/dashboard_main.png` → Main dashboard view  
+- `screenshots/dashboard_heatmap.png` → Weekday × Hour heatmap  
+- `screenshots/dashboard_top_coffees.png` → Top Coffees ranking
 
 ## Getting Started
 
