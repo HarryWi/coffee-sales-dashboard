@@ -39,12 +39,35 @@ To use it:
 3. File: `data/sample_data.csv` (CSV, UTF-8, header row).
 4. Run the provided SQL script to transform and load into `analytics.coffee_sales`.
 
+## Dashboard Preview
+
+The Power BI dashboard provides multiple perspectives on coffee sales performance.  
+Below are example pages with key insights:
+
+### Main Dashboard
+Overall view of KPIs, including Total Sales, YTD Sales, YoY %, and Distinct Coffees.
+
+![Main Dashboard](screenshots/dashboard_main.png)
+
+### Heatmap (Weekday × Hour)
+Visualizes demand patterns across weekdays and hours, highlighting peak sales periods.
+
+![Heatmap View](screenshots/dashboard_heatmap.png)
+
+### Top Coffees
+Ranks coffee products by sales volume and revenue share, identifying best performers.
+
+![Top Coffees](screenshots/dashboard_top_coffees.png)
+
 ## Files
 
 - `coffee_sales_db code.sql` → Database schema, ETL, indexes, views  
 - `Coffee Sales Analysis.pbix` → Power BI dashboard  
-- `Default view dashboard.pdf` → Screenshot/preview of dashboard  
+- `Default view dashboard.pdf` → Dashboard preview (PDF version)  
+- `data/sample_data.csv` → Example dataset  
+- `screenshots/*.png` → Dashboard screenshots  
 
 ## Getting Started
 
-1. Run SQL script in PostgreSQL to create tables, load data, and build views
+1. Run SQL script in PostgreSQL to create tables, load data, and build views.  
+2. Import `data/sample_data.csv` into `_
